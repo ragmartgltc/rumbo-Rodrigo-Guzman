@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUMBO</title>
+    <!-- se debe referencial la hoja de estilos del css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <!-- redireccion -->
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+
+            </nav>
+            <div id="hero">
+                <img src="img/brujula.png" alt="">
+                <h1>RUMBO</h1>
+                <p>EL SITIO WEB DE TURISMO IDEAL PARA TI</p>
+                <button>EMPEZAR</button>
+            </div>
+        </div>
+    </header>
+
+    <div id="planes">
+        <div class="container">
+            <h2>PLANES</h2>
+            <p>En <b>RUMBO</b> tenemos los iguientes planes para ti<br> Selecciona el plan que más se ajuste a la experiencia que quieras vivir</p>
+
+            <div class="row">
+                <div class="item-planes">
+                    <img src="img/senderismo.png" alt="">
+                    <h2>SENDERISMO</h2>
+                    <P>5 a 8 personas<br> 6 km de ruta<br> 150.000 Pesos<br> Precio por persona</P>
+                </div>
+                <div class="item-planes">
+                    <img src="img/canotaje.png" alt="">
+                    <h2>CANOTAJE</h2>
+                    <P>5 a 8 personas<br> 6 km de ruta<br> 150.000 Pesos<br> Precio por persona</P>
+                </div>
+                <div class="item-planes">
+                    <img src="img/camping.png" alt="">
+                    <h2>CAMPING</h2>
+                    <P>5 a 8 personas<br> 6 km de ruta<br> 150.000 Pesos<br> Precio por persona</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- div es necesario para cada contenedor -->
+    <div id="destinos">
+        <div class="container">
+            <h2>DESTINOS</h2>
+            <div class="row">
+
+                <div class="item-destin">
+                    <img src="img/cartagena.png" alt="">
+                    <h2>CARTAGENA</h2>
+                </div>
+
+                <div class="item-destin">
+                    <img src="img/barranquilla.png" alt="">
+                    <h2>BARRANQUILLA</h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="item-destin">
+                    <img src="img/llanos.png" alt="">
+                    <h2>LLANOS ORIENTALES</h2>
+                </div>
+
+                <div class="item-destin">
+                    <img src="img/laguajira.png" alt="">
+                    <h2>LA GUAJIRA</h2>
+                </div>
+            </div>
+
+            <!-- comentario -->
+
+        </div>
+    </div>
+    </div>
+
+    <div id="contacto">
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <p>
+                Comparte con nosotros tus datos de contacto y te enviaremos<br> toda la información de los medios de pagos.
+            </p>
+            <form action="#">
+                <div class="row">
+                    <input class="campo-f" type="text" placeholder="Nombres:">
+                    <input class="campo-f" type="number" placeholder="Teléfono:">
+                </div>
+                <div class="row">
+                    <input class="campo-f" type="email" placeholder="Email:">
+                    <select class="campo-f" name="" id="">
+                        <option value="#">Ciudad:</option>
+                        <option value="#">Chía</option>
+                        <option value="#">Cota</option>
+                        <option value="#">Cajíca</option>
+                    </select>
+                </div>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p> ©Todos los derechos reservados</p>
+        <p> contacto@rumbo.com </p>
+        <p>+57 3212444445</p>
+        <p>Cr 90 #93 - 20</p>
+    </footer>
+
+</body>
+
+</html>
